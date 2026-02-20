@@ -73,10 +73,10 @@ npx expo start
 
 
 ```bash
-// android
+# android
 eas build --platform android
 
-//ios
+# ios
 eas build --platform ios
 ```
 
