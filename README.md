@@ -1,39 +1,5 @@
 # 🚀 วิธีการติดตั้งและเริ่มใช้งาน (Installation Guide)
 
-สามารถเลือกติดตั้งได้ 2 รูปแบบตามความต้องการ ดังนี้:
-
----
-
-## แบบที่ 1: การสร้างโปรเจกต์ใหม่
-> สําหรับผู้ที่ต้องการเริ่มจากศูนย์
-
-**1. ติดตั้ง Expo CLI (หากยังไม่มี):**
-```bash
-npm install -g expo-cli eas-cli
-```
-
-**2. สร้างโปรเจกต์ใหม่:**
-```bash
-npx create-expo-app@latest my-app-name
-cd my-app-name
-```
-
-**3. เชื่อมต่อกับ Expo Account (เพื่อเอา Project ID ใหม่):**
-```bash
-eas login
-npx eas project:init
-```
-
-**4. ติดตั้ง Library ที่จําเป็นเพิ่มเติม (ตัวอย่าง):**
-```bash
-npx expo install expo-camera expo-face-detector
-```
-
----
-
-## แบบที่ 2: การคัดลอกโปรเจกต์นี้ไปใช้งาน (Clone & Install Dependencies)
-> หากคุณดาวน์โหลดไฟล์จาก GitHub นี้ หรือใช้คําสั่ง `git clone`
-
 **1. Clone โปรเจกต์:**
 ```bash
 git clone https://github.com/edusoft-top/web-view-template.git
