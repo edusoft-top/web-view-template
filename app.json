@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "web-view-app",
+    "slug": "web-view-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simple.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างาน",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างานแม้ในขณะที่แอพทำงานในพื้นหลัง",
+        "NSLocationAlwaysUsageDescription": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างาน"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.simple.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างาน",
+          "locationAlwaysPermission": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างาน",
+          "locationWhenInUsePermission": "แอพนี้ต้องการเข้าถึงตำแหน่งของคุณเพื่อบันทึกการเข้างาน"
+        }
+      ]
+    ]
+  }
+}
