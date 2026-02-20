@@ -37,7 +37,7 @@ npx expo install expo-camera expo-face-detector
 **1. Clone โปรเจกต์:**
 ```bash
 git clone https://github.com/edusoft-top/web-view-template.git
-cd REPOSITORY_NAME
+cd web-view-template
 ```
 
 **2. ติดตั้ง Library ทั้งหมดที่ระบุใน `package.json`:**
