@@ -39,8 +39,8 @@ npx expo start
 
 
 ```bash
-# android
-eas build --platform android
+# android (apk)
+eas build --platform android --profile preview
 
 # ios
 eas build --platform ios
