@@ -1,19 +1,26 @@
 # 🚀 วิธีการติดตั้งและเริ่มใช้งาน (Installation Guide)
 
-**1. Clone โปรเจกต์:**
+**1. ติดตั้ง Expo CLI**
+```bash
+npm install -g expo-cli eas-cli
+#หากต้องการ build เพื่อใช้งานจริง
+eas login
+```
+
+**2. Clone โปรเจกต์:**
 ```bash
 git clone https://github.com/edusoft-top/web-view-template.git
 cd web-view-template
 ```
 
-**2. ติดตั้ง Library ทั้งหมดที่ระบุใน `package.json`:**
+**3. ติดตั้ง Library ทั้งหมดที่ระบุใน `package.json`:**
 ```bash
 npm install
 # หรือถ้าใช้ yarn
 yarn install
 ```
 
-**3. ตั้งค่า Expo Project ID ใหม่ (สําคัญมาก):**
+**4. ตั้งค่า Expo Project ID ใหม่ (สําคัญมาก):**
 
 > เนื่องจากไฟล์เดิมจะมี `projectId` ของผู้พัฒนาเดิมติดไป ให้รันคําสั่งนี้เพื่อสร้าง ID ของคุณเองในบัญชีใหม่:
 
@@ -21,7 +28,7 @@ yarn install
 npx eas project:init
 ```
 
-**4. เริ่มรันโปรเจกต์:**
+**5. เริ่มรันโปรเจกต์:**
 ```bash
 npx expo start
 ```
